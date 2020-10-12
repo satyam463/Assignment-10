@@ -166,61 +166,8 @@ c(x,y)=(cx,y)
 \end{align}
 Is V with these operations , a vector space over the field of real numbers ?
 \section{Solution}
-V=\{(x,y) $\vert x,y \in R$\} , consider $$u = (x_1,y_1) , v = (x_2,y_2) , w = (x_3,y_3) \in V , a,b,c \in R$$ Axioms with respect to addition and scalar multiplication.
+V=\{(x,y) $\vert x,y \in R$\} , consider $u = (x_1,y_1) \in V , a,b,c \in R$. Axioms with respect to addition and scalar multiplication.
 \begin{enumerate}
- \item
- \begin{align}
- u+v = (x_1,y_1)+(x_2,y_2)\\
-     = (x_1+x_2,y_1+y_2)\\
-     = (x_2+x_1,y_2+y_1)\\
-     = (x_2,y_2)+(x_1,y_1)
-     = v + u 
- \end{align}
- \item 
-\begin{multline}
-\begin{aligned}
-u+(v+w)=(x_1,y_1)+((x_2,y_2)+(x_3,y_3))
-\end{aligned}
-\end{multline}
-\begin{align}
-=(x_1,y_1)+((x_2+x_3),(y_2+y_3))\\
-=(x_1+(x_2+x_3),y_1+(y_2+y_3))\\
-=((x_1+x_2)+x_3,(y_1+y_2)+y_3)\\
-=(x_1+x_2,y_1+y_2)+(x_3,y_3)\\
-=(u+v)+w 
-\end{align}
- \item 
- \begin{align}
- u+\vec{0} = (x_1+y_1)+(0,0)\\
-     = (x_1+0,y_1+0)\\
-     =(x_1,y_1)=u
- \end{align}
- \item 
- \begin{align}
- u + (-u) = (x_1,y_1)+(-x_1,-y_1)\\
-          = (x_1+(-x_1),y_1+(-y_1))\\
-          = (0 , 0) = \vec{0} 
- \end{align}
- \item 
- \begin{align}
- 1.u = 1.(x_1,y_1) = (1.x_1,y_1) = u 
- \end{align}
- \item 
- \begin{align}
-  (ab).u = ab.(x_1,y_1)=((ab)x_1,y_1)\\
-  =(a(bx_1),y_1)=a(bx_1,y_1)\\
-  =ab(x_1,y_1)=a(b.u)
- \end{align}
- \item 
- \begin{align}
- c.(u+v)=c.((x_1,y_1)+(x_2,y_2))\\
- =c.((x_1+x_2),(y_1+y_2))\\
- =(c(x_1+x_2),(y_1+y_2))\\
- =(cx_1+cx_2,y_1+y_2)\\
- =(cx_1,y_1)+(cx_2+y_2))\\
- =c.(x_1,y_1)+c.(x_2+y_2))\\
- =c.u+c.v
- \end{align}
  \item
  \begin{align}
  (a+b).u=(a+b).(x_1,y_1)\\
